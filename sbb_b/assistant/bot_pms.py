@@ -111,10 +111,10 @@ async def bot_start(event):
                         \nيمكنك التواصل مع ي من خلال هذا البوت"
         buttons = [
             (
-                Button.url("تنصيب تـيـبثون ❤️", "https://t.meTepthon"),
+                Button.url("تنصيب الخليفه ❤️", "https://t.me/JZIXl"),
                 Button.url(
                     "مساعدة ❓",
-                    "https://t.me/PPF22",
+                    "https://t.me/H_M_Dr",
                 ),
             )
         ]
@@ -122,7 +122,7 @@ async def bot_start(event):
         start_msg = "**اهلا بك عزيزي مالك البوت هذه هي اعدادات البوت الخاصة بك**"
         buttons = [
             [
-                Button.url("• السورس •", "https://t.me/Tepthon"),
+                Button.url("• السورس •", "https://t.me/JZIXl"),
             ],
             [
                 Button.inline("• اوامر البوت •", data="CMDBOT"),
