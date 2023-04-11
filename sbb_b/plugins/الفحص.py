@@ -37,7 +37,7 @@ async def amireallyalive(event):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/Tepthon)父**"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ 𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/JZIXl)父**"
     JMTHON_IMG = gvarstatus("ALIVE_PIC")
     caption = jmthon_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
@@ -84,7 +84,7 @@ def jmthonalive_text():
     EMOJI = gvarstatus("ALIVE_EMOJI") or "  ✥ "
     jmthon_caption = "**𝚃‌𝙴𝙿𝚃𝙷𝙾𝙽‌ 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶**\n"
     jmthon_caption += f"**{EMOJI} اصدار التيليثون :** `{version.__version__}\n`"
-    jmthon_caption += f"**{EMOJI} اصدار تيبثون :** `{jmthonversion}`\n"
+    jmthon_caption += f"**{EMOJI} اصدار الخليفه :** `{jmthonversion}`\n"
     jmthon_caption += f"**{EMOJI} اصدار البايثون :** `{python_version()}\n`"
     jmthon_caption += f"**{EMOJI} المالك:** {mention}\n"
     return jmthon_caption
@@ -103,9 +103,9 @@ async def repo(event):
 ROZ_PIC = "https://telegra.ph/file/577bd6562f22ca288f645.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**⌯︙بوت تيبثـون يعمل بنجاح 🤍،**\n"
+    f"**⌯︙بوت الخليفه يعمل بنجاح 🤍،**\n"
     f"**   - اصدار التليثون :** `1.23.0\n`"
-    f"**   - اصدار تيبثون :** `4.0.0`\n"
+    f"**   - اصدار الخليفه :** `4.0.0`\n"
     f"**   - البوت المستخدم :** `{RAZAN}`\n"
     f"**   - اصدار البايثون :** `3.9.6\n`"
     f"**   - المستخدم :** {mention}\n"
@@ -122,8 +122,8 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         if query.startswith("السورس") and event.query.user_id == sbb_b.uid:
             buttons = [
                 [
-                    Button.url("قنـاة السـورس ⚙️", "https://t.me/Tepthone"),
-                    Button.url("المطـور 👨🏼‍💻", "https://t.me/PPF22"),
+                    Button.url("قنـاة السـورس ⚙️", "https://t.me/JZIXl"),
+                    Button.url("المطـور 👨🏼‍💻", "https://t.me/H_M_Dr"),
                 ]
             ]
             if ROZ_PIC and ROZ_PIC.endswith((".jpg", ".png", "gif", "mp4")):
