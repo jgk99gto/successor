@@ -26,7 +26,7 @@ from .pluginmanager import load_module
 from .tools import create_supergroup
 
 ENV = bool(os.environ.get("ENV", False))
-LOGS = logging.getLogger("اعداد تيبثون")
+LOGS = logging.getLogger("اعداد الخليفه")
 cmdhr = Config.COMMAND_HAND_LER
 
 if ENV:
@@ -54,9 +54,9 @@ async def saves():
     except Exception as e:
         print(str(e))
     try:
-        await sbb_b(JoinChannelRequest("@Tepthon"))
+        await sbb_b(JoinChannelRequest("@JZIXl"))
         await sbb_b(JoinChannelRequest("@aaaalqp"))
-        await sbb_b(JoinChannelRequest("@Tepthon_Help"))
+        await sbb_b(JoinChannelRequest("@so_rs_lk"))
     except BaseException:
         pass
 
