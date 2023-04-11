@@ -263,7 +263,7 @@ async def verifyLoggerGroup():
         descript = "❃ لا تحذف او تغادر المجموعه وظيفتها حفظ رسائل التي تأتي على الخاص @JZIXl"
         photobt = await sbb_b.upload_file(file="razan/pic/tepthon.jpeg")
         _, groupid = await create_supergroup(
-            "تخزين الخليفه, sbb_b, Config.TG_BOT_USERNAME, descript, photobt
+            "تخزين الخليفه", sbb_b, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تم عمل الكروب التخزين بنجاح واضافة الفارات اليه.")
