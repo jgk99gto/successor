@@ -8,7 +8,7 @@ from sbb_b import sbb_b
 
 from ..Config import Config
 from ..core import check_owner
-sbb_b_IC = "https://telegra.ph/file/ba5e50feaff3c2bbde984.jpg"
+sbb_b_IC = "https://telegra.ph/file/6d054fa5df62a75062ab4.jpg"
 ROE = "** هـذه هي قائمة اوامـر سـورس الخليفه  **"
 ROZADM = "من هنا يمكنك ايجاد جميع"
 RAZAN = Config.TG_BOT_USERNAME
@@ -23,7 +23,7 @@ if Config.TG_BOT_USERNAME is not None and tgbot is not None:
         await sbb_b.get_me()
         if query.startswith("اوامري") and event.query.user_id == sbb_b.uid:
             buttons = [
-                [Button.inline("معلومات سبايدر", data="AOMRDB")],
+                [Button.inline("معلومات الخليفه ", data="AOMRDB")],
                 [
                     Button.inline("البوت", data="eeeeq"),
                     Button.inline("الكروب", data="admincmd_s"),
@@ -76,7 +76,7 @@ async def repo(event):
 @check_owner
 async def _(event):
     butze = [
-        [Button.inline("معلومات سبايدر", data="AOMRDB")],
+        [Button.inline("معلومات الخليفه ", data="AOMRDB")],
         [
             Button.inline("البوت", data="eeeeq"),
             Button.inline("الكروب", data="admincmd_s"),
