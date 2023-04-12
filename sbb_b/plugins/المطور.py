@@ -4,10 +4,10 @@ from sbb_b import sbb_b
 
 from ..Config import Config
 
-ROZ_PIC = "https://telegra.ph/file/ba5e50feaff3c2bbde984.jpg"
+ROZ_PIC = "https://telegra.ph/file/6d054fa5df62a75062ab4.jpg"
 RAZAN = Config.TG_BOT_USERNAME
 ROZ_T = (
-    f"**مطور سورس سبايدر **\n"
+    f"**مطور سورس الخليفه **\n"
   
 )
 
